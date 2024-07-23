@@ -29,11 +29,14 @@
                                             let result = '';
                                             if (condicao === 'igual') {
                                                 result = (valorTeste === valorComparacao) ? 'Os valores são iguais' : 'Os valores são diferentes';
-  } else if (condicao === 'maior') {
+
+                                            } else if (condicao === 'maior') {
                                                 result = (valorTeste > valorComparacao) ? 'O valor de teste é maior' : 'O valor de teste não é maior';
-  } else if (condicao === 'menor') {
+
+                                            } else if (condicao === 'menor') {
                                                 result = (valorTeste < valorComparacao) ? 'O valor de teste é menor' : 'O valor de teste não é menor';
-  } else {
+
+                                            } else {
                                                 result = 'Condição inválida';
   }
 
